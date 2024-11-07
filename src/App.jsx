@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import Cadastro from './pages/cadastro'
 import Login from './pages/login'
+import ListarUsuarios from './pages/lista'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         {/* Acessando o arquivo principal com / no arquivo element = cadastro */}
         <Route path='/' element={<Cadastro />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/listar-usuarios' element={<ListarUsuarios />} />
       </Routes>
     </BrowserRouter>
   )
