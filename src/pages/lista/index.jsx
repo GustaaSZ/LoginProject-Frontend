@@ -1,6 +1,8 @@
-function Lista (){
+function ListarUsuarios (){
     return (
-        <div></div>
+        <div>
+            <h2>Lista de Usuários</h2>
+        </div>
     )
 }
-export default Lista
+export default ListarUsuarios
