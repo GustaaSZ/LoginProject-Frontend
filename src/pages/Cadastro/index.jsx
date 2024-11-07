@@ -13,9 +13,9 @@ function Cadastro (){
                 <form className="flex flex-col gap-4 mx-5 my-4 mb-8 w-full">
                     <input placeholder="Name" type="text" className="rounded-lg focus:outline-none"></input>
                     <input placeholder="E-mail" type="email" className="rounded-lg focus:outline-none "></input>
-                    <input placeholder="password" type="password" className="rounded-lg focus:outline-none"></input>
+                    <input placeholder="Password" type="password" className="rounded-lg focus:outline-none"></input>
                 </form>
-                <button className="text-zinc-50 font-bold bg-blue-500 w-full h-8 rounded-lg hover:bg-blue-700 ">  Cadastar  </button>
+                <button className="text-zinc-50 font-bold bg-blue-500 w-full h-8 rounded-lg hover:bg-blue-700">  Cadastar  </button>
                 <Link to={"/login"} className="text-blue-600 hover:underline mt-3">Já possui uma conta? Faça Login</Link>
             </div>
         </div>
