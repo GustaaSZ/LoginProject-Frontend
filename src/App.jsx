@@ -7,12 +7,12 @@ import Login from './pages/login'
 function App() {
   return (
     // Envolvendo a estrutura principal com BrowserRouter
-    <BrowserRouter className='flex flex-1 items-center justify-center'>
+    <BrowserRouter style={{background: '#6b7280'}} className='flex flex-1 items-center justify-center'>
       {/* Envolvendo a interna com Routes */}
-      <Routes>
+      <Routes className=''>
         {/* Acessando o arquivo principal com / no arquivo element = cadastro */}
         <Route path='/' element={<Cadastro />} />
-        <Route path='/' element={<Login />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
     </BrowserRouter>
   )
